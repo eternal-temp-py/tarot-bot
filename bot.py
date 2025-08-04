@@ -65,4 +65,4 @@ async def draw(ctx, number_of_cards: int = 1):
         print(f"Error in draw command: {e}")
 
 
-bot.run("DISCORD_KEY")
+bot.run("DISCORD_TOKEN")
